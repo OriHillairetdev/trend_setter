@@ -1,1 +1,1 @@
-web: gunicorn trend_setter.wsgi:application --log-file - --log-level debug
+web: gunicorn trend_setter.wsgi:application
