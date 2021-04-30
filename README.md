@@ -1,5 +1,5 @@
 <h1  align="center">
-<a  href=""  target="_blank"><img  src="/workspace/trend_setter/documentation/Landingpage/Homepage colour.png"  alt="Trend setter"/></a>
+<a  href=""  target="_blank"><img  src="*/Landingpage/Homepage colour.png"  alt="Trend setter"/></a>
 
 </h1>
 
