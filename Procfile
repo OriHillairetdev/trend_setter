@@ -1,1 +1,1 @@
-web: gunicorn trend-setter.wsgi:application
+web:gunicorn trend-setter.wsgi:application
