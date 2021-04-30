@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
+    'django_rename_app',
 
     # Other
     'crispy_forms',
