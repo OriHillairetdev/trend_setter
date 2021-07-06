@@ -1,1 +1,1 @@
-Trend Setters Confirmation for Order Number {{ order.order_number }}
+Boutique Ado Confirmation for Order Number {{ order.order_number }}
