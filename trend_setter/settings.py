@@ -21,10 +21,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', '')
+SECRET_KEY = os.environ.get('SECRET_KEY', 'h%qme7bm@%dd&wql#g)wb&3^yso2bx%sfv*f0j$o77__!_ulcj')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'TRUE' in os.environ
+DEBUG = True
 
 ALLOWED_HOSTS = ["trend-setter.herokuapp.com", "localhost"]
 
@@ -208,12 +208,10 @@ STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 
 if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-    DEFAULT_FROM_EMAIL = 'TrendSetters@gmail.com'
+    DEFAULT_FROM_EMAIL = 'oridev97@gmail.com'
 else:
-    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-    EMAIL_USE_TLS = True
-    EMAIL_PORT = 587
-    EMAIL_HOST = 'smtp.gmail.com'
-    EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
-    EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
-    DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+    MAIL_SERVER = 'smtp.gmail.com',
+    MAIL_PORT = '587',
+    MAIL_USE_TLS = True,
+    MAIL_USERNAME = os.environ.get('EMAIL_USER'),
+    MAIL_PASSWORD = os.environ.get('EMAIL_PASS')
