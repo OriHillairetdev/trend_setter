@@ -19,6 +19,10 @@ body {
     width: 1.5rem;
 }
 
+.Webicon{
+    size: 1rem;
+}
+
 .logo-font {
     text-transform: uppercase;
     text-align: center;
