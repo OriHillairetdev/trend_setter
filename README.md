@@ -96,7 +96,7 @@ The site uses bootstrap 4 be responsive across devices, also media queries were 
 ### Wireframes
 
 WireFrames were created using Figma at recomendation of my tutor. https://www.figma.com/  
-they can be found here [wireframes(media/Wireframes) 
+they can be found here [wireframes(media/Wireframes)] 
 The original design that was chosen was too similar to the Boutique ado project and while i am very fond of the simple design things where changed to make it stand out and look different 
 
   
@@ -205,7 +205,7 @@ Testing Useabliltiy' on multiple devices using the google developer tools i used
 
 I personally used vscode on my local machine to develop the site using Python 3.7.3  and deployed to Heroku via Github.
 
-1. To download or clone the site to your local machine you will need to go to (https://github.com/OriHillairetdev/Milestone-project-3) see steps in https://help.github.com/en/articles/cloning-a-repository .
+1. To download or clone the site to your local machine you will need to go to (https://github.com/OriHillairetdev/trend_setter) see steps in https://help.github.com/en/articles/cloning-a-repository .
 2. Before you download or clone the site you will need to ensure you have [Python 3.7](https://www.python.org/downloads/) installed. 
 3. Once you have Python installed, created a virtual environment as appropriate to you chosen IDE and os.
 4. Run the requirements.txt file as appropriate to your IDE to install the relevant required packages dependencies for the project into your virtual environment.
