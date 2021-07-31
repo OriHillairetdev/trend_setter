@@ -96,7 +96,7 @@ The site uses bootstrap 4 be responsive across devices, also media queries were 
 ### Wireframes
 
 WireFrames were created using Figma at recomendation of my tutor. https://www.figma.com/  
-they can be found here [desktop](documentation/WireFrames) 
+they can be found here [wireframes(Wirframes/readme) 
 The original design that was chosen was too similar to the Boutique ado project and while i am very fond of the simple design things where changed to make it stand out and look different 
 
   
@@ -182,7 +182,7 @@ the html validator https://validator.w3.org/ showed up multiple errors as the te
 When the project was fully completed i went through the below testing scenarios to further test the project to make sure that it reached my goal.
 
 
-
+![Responsive Design](/wirframes/Responsivness.png)
 
 
 
@@ -193,7 +193,11 @@ verification page the accounts where being created with no verification needed a
 
 Testing Steps:
 
-Checking the email and verification system, using temp mail i made many account testing and retesting all of the log out and account creation functions at each stage of development i would 
+Checking the email and verification system, using temp mail i made many account testing and retesting all of the log out and account creation functions at each stage of development i would create an account and check that everything was working as intended 
+
+Testing Useabliltiy' on multiple devices using the google developer tools i used all of the features on the site to make sure everything was working as intended 
+
+
 
 
 
