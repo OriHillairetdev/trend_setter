@@ -1,1 +1,1 @@
-Trend Setters Confirmation for Order Number {{ order.order_number }}
+PCGamer Collect Confirmation for Order Number {{ order.order_number }}
