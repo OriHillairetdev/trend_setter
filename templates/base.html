@@ -58,42 +58,7 @@
                     </div>
                 </form>
             </div>
-                <!--added to change the UX -->
-           <div>
-            <ul class="navbar-nav w-auto mx-auto">
-        
-                <li class="nav-item dropdown">
-                    <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        All Products
-                    </a>
-                    <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                        <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                        <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
-                        <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-                        <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
-                    </div>
-                </li>
-        
-                <li class="nav-item dropdown">
-                    <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        GENRES
-                    </a>
-                    <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                        <a href="{% url 'products' %}?category=FIGHTING GAME" class="dropdown-item">Fighting games</a>
-                        <a href="{% url 'products' %}?category=SIM" class="dropdown-item">Simulation</a>
-                        <a href="{% url 'products' %}?category=MMORPG" class="dropdown-item">Mmorpg</a>
-                        <a href="{% url 'products' %}?category=ADVENTURE" class="dropdown-item">Adventure</a>
-                        <a href="{% url 'products' %}?category=ACTION" class="dropdown-item">Action</a>
-                        <a href="{% url 'products' %}?category=HORROR" class="dropdown-item">Horror</a>
-                        <a href="{% url 'products' %}?category=SPORTS" class="dropdown-item">Sports</a>
-                        <a href="{% url 'products' %}?category=RACING" class="dropdown-item">Racing</a>
-                        <a href="{% url 'products' %}?category=FPS" class="dropdown-item">First Person Shooter</a>
-                        <a href="{% url 'products' %}?category=RPG" class="dropdown-item">RPG</a>
-                        <a href="{% url 'products' %}?category=RTS" class="dropdown-item">RTS</a>
-                        
-                    </div>
-
-           </div>
+              
 
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
