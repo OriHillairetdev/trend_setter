@@ -191,6 +191,10 @@ Main problems that where run into was a server error 500 upon making an account 
 verification page the accounts where being created with no verification needed and it was causing a server 500 error with no email being sent, after pinpointing the location of the problem the issue turned out to be a simple synatax error that has gotten lost in the code after fixing that the problem was solved and it worked as intended 
 
 
+Testing Steps:
+
+Checking the email and verification system, using temp mail i made many account testing and retesting all of the log out and account creation functions at each stage of development i would 
+
 
 
 ## Deployment
