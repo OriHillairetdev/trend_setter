@@ -1,5 +1,5 @@
 <h1  align="center">
-<a  href=""  target="_blank"><img  src="/static/img/Landingpage.png"  alt="PCGaming landing screen"/></a>
+<a  href=""  target="_blank"><img  src="media/Wireframes/landing page.png"  alt="PCGaming landing screen"/></a>
 
 </h1>
 
@@ -96,7 +96,7 @@ The site uses bootstrap 4 be responsive across devices, also media queries were 
 ### Wireframes
 
 WireFrames were created using Figma at recomendation of my tutor. https://www.figma.com/  
-they can be found here [wireframes(Wirframes/readme) 
+they can be found here [wireframes(media/Wireframes) 
 The original design that was chosen was too similar to the Boutique ado project and while i am very fond of the simple design things where changed to make it stand out and look different 
 
   
