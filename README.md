@@ -182,7 +182,7 @@ the html validator https://validator.w3.org/ showed up multiple errors as the te
 When the project was fully completed i went through the below testing scenarios to further test the project to make sure that it reached my goal.
 
 
-![Responsive Design](/wirframes/Responsivness.png)
+![Responsive Design](media/Wireframes/Responsivness.png)
 
 
 
